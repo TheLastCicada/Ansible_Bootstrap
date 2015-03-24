@@ -13,5 +13,5 @@ wget https://raw.githubusercontent.com/TheLastCicada/Ansible_Public_Key/master/i
 cd ~
 cat ~/ansible_key/id_rsa.pub >> ~/.ssh/authorized_keys
 chown -R root:root ~/.ssh
-chomd 700 ~/.ssh
+chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys

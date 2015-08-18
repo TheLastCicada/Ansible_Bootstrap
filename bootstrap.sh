@@ -15,9 +15,6 @@ rm id_rsa.pub
 wget https://gist.githubusercontent.com/TheLastCicada/b9008fe1c53f7d122af9/raw/327058b3e3fb28c6185e767f73075ce247b89319/id_rsa.pub
 cat ./id_rsa.pub >> ~/.ssh/authorized_keys
 rm id_rsa.pub
-wget https://gist.githubusercontent.com/TheLastCicada/b9008fe1c53f7d122af9/raw/327058b3e3fb28c6185e767f73075ce247b89319/id_rsa.pub
-cat ./id_rsa.pub >> ~/.ssh/authorized_keys
-rm id_rsa.pub
 cd ~
 chown -R root:root ~/.ssh
 chmod 700 ~/.ssh
